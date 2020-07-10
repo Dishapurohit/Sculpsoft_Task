@@ -29,4 +29,7 @@
 #
 # use below link to get main webpage for the database
 # http://127.0.0.1:8000/admin
+<<<<<<< HEAD
 
+=======
+>>>>>>> 69b79f370dbd39a64793c1845fc35047bd8e2be1
