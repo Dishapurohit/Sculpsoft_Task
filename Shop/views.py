@@ -13,13 +13,10 @@ def index(request):
     print(products)
 
     allprods=[]
-    catprods=Product.objects.values('category','id')
-    cats={item['category'] for item in catprods}
-    for cat in cats:
-        prod=Product.objects.filter(category=cat)
-        n=len(prod)
-        nSlides = n//4+ceil((n/4)-(n//4))
-        allprods.append([prod,range(1,nSlides),nSlides])
+    prod=Product.objects.filter()
+    n=len(prod)
+    nSlides = n//4+ceil((n/4)-(n//4))
+    allprods.append([prod,range(1,nSlides),nSlides])
 
     params = {'allprods': allprods}
     return render(request,'Shop/index.html',params)

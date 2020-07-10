@@ -12,18 +12,18 @@ class Product(models.Model):
     pub_date=models.DateField()
     image=models.ImageField(upload_to="Shop/images",default=" ")
 
-    # category_choices = (
-    #     ('Electronics', 'Electronics'),
-    #     ('Clothes', 'Clothes')
-    # )
-    # sub_category_choice = (
-    #     ('Electronics', 'Mobile'),
-    #     ('Electronics', 'TV'),
-    #     ('Clothes', 'Men s clothes'),
-    #     ('Clothes', 'Women s clothes')
-    # )
-    # category = MultiSelectField(choices=category_choices)
-    # sub_category = MultiSelectField(choices=sub_category_choice)
+    category_choices = (
+        ('Electronics', 'Electronics'),
+        ('Clothes', 'Clothes')
+    )
+    sub_category_choice = (
+        ('Electronics', 'Mobile'),
+        ('Electronics', 'TV'),
+        ('Clothes', 'Men s clothes'),
+        ('Clothes', 'Women s clothes')
+    )
+    category = MultiSelectField(choices=category_choices)
+    sub_category = MultiSelectField(choices=sub_category_choice)
 
     def __str__(self):
         return self.product_name
