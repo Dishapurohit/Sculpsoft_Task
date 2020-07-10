@@ -23,3 +23,9 @@
 # python manage.py makemigration
 # python manage.py migrate
 # python manage.py runserver
+#
+# use below link to get main webpage for the website
+# http://127.0.0.1:8000/
+#
+# use below link to get main webpage for the database
+# http://127.0.0.1:8000/admin
