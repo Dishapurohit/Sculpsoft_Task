@@ -1,3 +1,3 @@
 # Sculpsoft_Task
 
-Please Check Snapshots for reference.
+Please Check Snapshots for my preference.
