@@ -1,0 +1,24 @@
+# use Django Framework
+#
+# Use Google Chrome
+# Google Chrome - Version 83.0.4103.116 (Official Build) (64-bit)
+#
+# py --version
+# Python 3.8.2
+#
+# py -m pip install virtualenvwrapper-win
+# mkvirtualenv E-Commerce_Filtering_screen
+# py -m pip install --upgrade pip
+# py -m pip install Django
+# django-admin --version
+# django-admin startproject ECommerceFilterScreen
+# django-admin startapp Shop
+#
+# py -m pip install django-multiselectfield
+
+# Commands To run on terminal for getting output
+# python manage.py createsuperuser
+#
+# python manage.py makemigration
+# python manage.py migrate
+# python manage.py runserver
