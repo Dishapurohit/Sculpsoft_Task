@@ -5,7 +5,7 @@
 #
 # py --version
 # Python 3.8.2
-# pycharm IDE 2020.1.1(latest version) 
+# Use Pycharm Community Edition 2020.1.1X64
 #
 # py -m pip install virtualenvwrapper-win
 # mkvirtualenv E-Commerce_Filtering_screen
